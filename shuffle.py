@@ -3,7 +3,7 @@ import numpy as np
 import pygame
 from pygame import mixer
 
-songs_folder = "C:/Users/Gunethra/Documents/AI-sw/Content"
+songs_folder = "/home/llama/Documents/AI-sw/Content"
 
 def song_shuffler(songs):
     songs = np.array(songs)
